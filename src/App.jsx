@@ -67,12 +67,10 @@ const App = () => {
 
   return (
     <>
-      <div style={{ display: "flex",flexDirection:"column",width:"100%" }}>
+      <div style={{ display: "flex",width:"100%" }}>
         <div>
           <div>
-            <div style={{ textAlign: "center" }}>
-              {collapsed ? "BM" : "Business Manager"}
-            </div>
+
 
             <Button type="primary" size="small" onClick={toggleCollapsed}>
               {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
