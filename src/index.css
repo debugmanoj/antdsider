@@ -1,0 +1,6 @@
+.ant-menu-item-selected {
+  
+  background-color: #1890ff !important; /* Change this color to your desired selected background color */
+  color: white !important; /* Change this color to your desired selected text color */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
